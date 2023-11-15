@@ -254,7 +254,8 @@ public class AppHotel001 {
             Aux.setNumCamas(NumCamas);
             Aux.setIDHabitacion(IDHabitacion);
             h.addhabitacion(Aux);
-            System.out.println("Imgresa el tipo");
+            System.out.println("Ingresa el servicio adicional que desee. Tenemos \t Lavanderia \t Planchado \t Despertador \t MiniBar ");
+            
             
         }else if (tipoHabitacion == 2){
             //Habitacion Residente

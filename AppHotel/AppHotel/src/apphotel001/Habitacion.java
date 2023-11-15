@@ -5,6 +5,8 @@
  */
 package apphotel001;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Israel Cianca
@@ -12,6 +14,9 @@ package apphotel001;
 public class Habitacion {
     protected int numCamas;
     protected int IDHabitacion;
+    ArrayList<Suite> HSuite;
+    ArrayList<HResidente> HResidente;
+    ArrayList<HGrupal> HGrupal;
 
     public int getNumCamas() {
         return numCamas;
